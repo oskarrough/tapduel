@@ -1,0 +1,12 @@
+<div class="TapDuel-left" style="{{concat "flex-basis:" leftPercentage "%"}}" {{action "left"}}>
+	<span><em>{{leftPercentage}}%</em></span>
+</div>
+
+<div class="TapDuel-right" style="{{concat "flex-basis:" rightPercentage "%"}}" {{action "right"}}>
+	<span><em>{{rightPercentage}}%</em></span>
+</div>
+
+<footer>
+	{{totalVotes}}<br>{{winningVote}} is winning
+  {{yield}}
+ </footer>
